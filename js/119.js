@@ -25,7 +25,6 @@ var getRow = function(rowIndex) {
         }
         array.push(tempArray)
     }
-    console.log(array)
     return array[rowIndex];
     
 };
