@@ -33,12 +33,9 @@ var titleToNumberA = function (columnTitle) {
          let num = columnTitle.charCodeAt(i) - 64;
          let multiplier = Math.pow(base, powerOf)
          columnNumber += num * multiplier
-
          powerOf++
     }
-
     return columnNumber;
-   
 };
 
 
